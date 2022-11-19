@@ -1,5 +1,6 @@
 import React from 'react'
 import { CartState } from '../context/Context'
+import Filters from './Filters';
 import SingleProducts from './SingleProducts';
 import "./styles.css"
 
@@ -14,7 +15,7 @@ const Home = () => {
 
   return (
     <div className='home'>
-      {/* <Filter/>  */}
+      <Filters/>
 
           <div className="productContainer">
             {
